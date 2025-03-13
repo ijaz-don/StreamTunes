@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from './Pages/Home'
+import Blog from './Pages/Blog'
+import Contact from './Pages/Contact'
+import Layout from './Pages/Layout'
+import { Button } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Header />
+      {/* <nav>
+        <Link to="/">Home</Link> | 
+        <Link to="/Blog">Blog</Link> | 
+        <Link to="/Contact">Contact</Link> | 
+        <Link to="/Layout">Layout</Link>
+        <Button variant="primary">click this</Button>
+      </nav> */}
+
+      <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/Blog" element={<Blog />}/>
+          <Route path="/Contact" element={<Contact />}/>
+          <Route path="/Layout" element={<Layout />}/>
+        
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+              
