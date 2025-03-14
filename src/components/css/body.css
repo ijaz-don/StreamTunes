@@ -1,0 +1,18 @@
+#bwrapper{
+    background-color: black;
+    height  : 460px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#body-body1{
+    width: 29%;
+    height: 440px;
+    background-color: rgb(44, 44, 44);
+}
+#body-body2{
+    width: 70%;
+    height: 440px;
+    background-color: rgb(44, 44, 44);
+}

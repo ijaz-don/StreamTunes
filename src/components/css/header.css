@@ -1,0 +1,97 @@
+#wrapper{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#list1{
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+#list2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#list3{
+    height: 50px;
+    width: 400px;
+    position: relative;
+}
+#inp{
+    height: 40px;
+    width: 400px;
+    border-radius: 40px;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.four5{
+    display: flex;
+    height: 10px;
+    align-items: center;
+    position: relative;
+}
+.four5wrap{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#list4{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+#list5{
+    display: flex;
+    align-items: center;
+}
+#installsvg{ 
+    margin-left: 5px;
+}
+#browsing{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+#butt1{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    left: 8px;
+    z-index: 1;
+    background-color: transparent;
+    top: 6px;
+    border: 0;
+}
+#Header-login{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#Header-login-id{
+    width: 100px;
+    border-radius: 20px;
+}
