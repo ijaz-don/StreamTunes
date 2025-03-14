@@ -8,6 +8,7 @@ import Layout from './Pages/Layout'
 import { Button } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import './App.css'
 
 export default function App() {
   return (

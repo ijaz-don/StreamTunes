@@ -1,18 +1,23 @@
 #bwrapper{
     background-color: black;
-    height  : 460px;
+    height  : 90vh;
     overflow: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #body-body1{
-    width: 29%;
-    height: 440px;
+    width: 30%;
+    height: 550px;
     background-color: rgb(44, 44, 44);
+    margin: 10px;
+    border-radius: 15px;
 }
 #body-body2{
     width: 70%;
-    height: 440px;
+    height: 550px;
     background-color: rgb(44, 44, 44);
+    margin: 10px;
+    border-radius: 15px;
+
 }
